@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/art-1995/portfolio.git/static/css/main.8aa42935.css",
+    "main.js": "/art-1995/portfolio.git/static/js/main.6d49035e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/art-1995/portfolio.git/static/js/787.1ed0c42c.chunk.js",
+    "static/media/AppleSDGothicNeoEB00.woff": "/art-1995/portfolio.git/static/media/AppleSDGothicNeoEB00.537eaa69d8dbac0b1662.woff",
+    "static/media/AppleSDGothicNeoB00.woff": "/art-1995/portfolio.git/static/media/AppleSDGothicNeoB00.61da034ab335d6b85e5a.woff",
+    "static/media/AppleSDGothicNeoM00.woff": "/art-1995/portfolio.git/static/media/AppleSDGothicNeoM00.0184a6ce07a110f9d43d.woff",
+    "static/media/logo.svg": "/art-1995/portfolio.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/work.svg": "/art-1995/portfolio.git/static/media/work.316bdad55baa081299931b6042b541b9.svg",
+    "static/media/about.svg": "/art-1995/portfolio.git/static/media/about.2d1d09ffca14cb152dd5baaa42555510.svg",
+    "index.html": "/art-1995/portfolio.git/index.html",
+    "static/media/contect.svg": "/art-1995/portfolio.git/static/media/contect.592313e08e45c225274b79fedf7f3d46.svg",
+    "main.8aa42935.css.map": "/art-1995/portfolio.git/static/css/main.8aa42935.css.map",
+    "main.6d49035e.js.map": "/art-1995/portfolio.git/static/js/main.6d49035e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/art-1995/portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aa42935.css",
+    "static/js/main.6d49035e.js"
+  ]
+}
