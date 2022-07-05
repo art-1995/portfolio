@@ -1,0 +1,99 @@
+/*eslint-disable*/
+import React, {useState, useEffect} from 'react';
+import {Link, Route, Switch} from 'react-router-dom';
+import logo from './logo.svg';
+// import'./dist/App.css';
+import './App.scss';
+
+function App() {
+  return (
+    <div className="App">
+      <Switch>
+        <Route path='/'>
+          <Main></Main>
+         </Route>
+      </Switch>
+    </div>
+  );
+}
+
+function Main(){
+  let [slide, slideChange] = useState(false);
+  let click = document.querySelector('.ani_menu_wrap');
+  click.addEventListener('click', function(){alert('hi')});
+  if (slide === true){
+    function addClassName(){
+      document.getElementById('slideNav').className += 'active';
+      document.getElementById('slideOne').className += 'active';
+      document.getElementById('slideTwo').className += 'active';
+    }
+  }else {function removeFooClass(){
+    document.getElementById('slideNav').classList.remove('active');
+    document.getElementById('slideOne').classList.remove('active');
+    document.getElementById('slideTwo').classList.remove('active');
+  }}
+  return(
+    <div className='main container'>
+      <nav className='slide_nav' id='slideNav'>
+        <div className='slide_navBox' id='slideOne'>
+          <div className='slide_nav_list flex column'>
+            <Link to='/'>HOME</Link>
+            <Link to='/about'>ABOUT</Link>
+            <Link to='/work'>WORK</Link>
+            <Link to='/contect'>CONTECT</Link>
+          </div>
+        </div>
+        <div className='slide_navBox' id='slideTow'>
+          <button className='exit'>
+            <div></div>
+            <div></div>
+          </button>
+        </div>
+      </nav>
+      <div className='titleFt main_top'>
+        <p>MARKUP</p>
+        <p>PORTFOLIO</p>
+      </div>
+      <button onClick={()=> {slideChange(true)}} className='ani_menu_wrap'>
+        <div className='ani_menu'>
+          <ul className='ani_round'>
+            <li className='dot'></li>
+            <li className='dot'></li>
+            <li className='dot'></li>
+            <li className='dot'></li>
+          </ul>
+          <div className='main_btn flex space align_center column'>
+            <ul className='main_btn_dot flex space'>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul className='main_btn_dot flex space'>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul className='main_btn_dot flex space'>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul className='main_btn_dot flex space'>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </button>
+    </div>
+  );
+}
+<script>
+</script>
+
+export default App;
